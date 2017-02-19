@@ -1,0 +1,26 @@
+section.portfolio{
+   background-color: #f7f7f7;
+}
+
+figcaption.portfolio{
+   height: 100px;
+   background-color: aliceblue;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+}
+
+figure.portfolio{
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 400px;
+   height: 300px;
+}
+
+#no1{background-image:url("https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/portfolio/min/box_of_cookies-min.jpg?raw=true");
+}
+#no2{ background-image:url("https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/portfolio/min/chaotic_paint-min.jpg?raw=true")}
+#no3{ background-image:url("https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/portfolio/min/chestnut_on_bracket-min.jpg?raw=true")}
+#no4{ background-image:url("https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/portfolio/min/child_with_blue_paint-min.jpg?raw=true")}
+#no5{ background-image:url("https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/portfolio/min/house_with_blue_doors-min.jpg?raw=true")}
+#no6{ background-image:url("https://github.com/Wujek280/BTrap-Projekt-2/blob/master/gfx/portfolio/min/typing_on_laptop-min.jpg?raw=true")}

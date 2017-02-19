@@ -3,15 +3,18 @@
 
 <head>
    
+	<title>Boostrap Grid</title>
     <meta charset="UTF-8">
-    
+<!--    html css-->
 	<link rel="stylesheet" href="css/bootstrap.min.css">    
 	<link rel="stylesheet" href="css/header.css">    
 	<link rel="stylesheet" href="css/buttons.css">    
-	<link rel="stylesheet" href="css/headers-body.css">    
-<!--   Boostrap-->
-
-	<title>Boostrap Grid</title>
+	<link rel="stylesheet" href="css/headers-body.css"> 
+<!--	sections css   -->
+	<link rel="stylesheet" href="css/services.css">    
+	<link rel="stylesheet" href="css/portfolio.css">  
+<!--	boostrap css  -->
+	<link rel="stylesheet" href="css/boostrap-overwrite.css">    
 <!--    Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
 <!--    Font Awesome-->
@@ -22,48 +25,149 @@
 <body>
 
 <!--NAV-->
-<nav class="red">
-  <ul>
-    <a href="">
-      <li>services</li>
-    </a>
-    <a href="">
-      <li>portfolio</li>
-    </a>
-    <a href="">
-      <li>about</li>
-    </a>
-    <a href="">
-      <li>team</li>
-    </a>
-    <a href="">
-      <li>contact</li>
-    </a>
-  </ul>
-</nav>
+
+   <!--WKLEJKA******************************-->
+   <nav class="navbar navbar-default navbar-fixed-top">
+     <div class="container-fluid" >
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed text-right" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+           <span class="sr-only"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#"><h3 class="in-navbar">boostrap project</h3></a>
+       </div>
+
+       <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="menu">
+         <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">services</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+         </ul>
+       </div><!-- /.navbar-collapse -->
+     </div><!-- /.container-fluid -->
+   </nav>
+
+   <!--WKLEJKA******************************-->
+
 
 <!--HEADER-->
  
-  <header id="bgc">   
-          <div class="title">
-             <h3 class="header">Num libero temporte</h3>
-             <h2 class="header">Lorem ipsum dolor</h2>
-                <input type="button" value="view more">
+<div class="row center">
+      <header id="bgc" class="column col-lg-12 col-md-12 col-xs-12">   
+         <div class="title">
+            <h3 class="header">Num libero temporte</h3>
+            <h2 class="header">Lorem ipsum dolor</h2>
+            <input type="button" value="view more">
+         </div>
+      </header>
+</div>
 
-          </div>
-  </header>
+<!--SECTION #1 SERVICES-->
+  
+
+<section class="container">
+  
+   <!--  TITLE SERVICES-->
+   <div class="row center">
+      <h3>services</h3>
+      <h5>Praesentium voluptatum delentini atque corrupti</h5>
+   </div>
+   <div class="row">
+          <!--   SERVICES_i-->
+      <div class="services column col-lg-4 col-md-4 col-xs-12">
+         
+          <figure class="service">
+           
+            <div class="icon round">
+               <i class="fa fa-briefcase" aria-hidden="true"></i>
+            </div>
+            <hr />
+            <figcaption class="opis">
+            <h4>web developer</h4>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit repellat laudantium hic ab autem blanditiis doloribus atque, aliquid. </h5>
+            
+            </figcaption>
+
+         </figure>
+         
+      </div>
+           <!--   SERVICES_i-->
+      <div class="service column col-lg-4 col-md-4 col-xs-12">
+         <div class="icon round">
+              <i class="fa fa-cloud-download" aria-hidden="true"></i>
+            </div>
+            <hr />
+            <figcaption class="opis">
+            <h4>e-commerce</h4>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h5>
+            
+            </figcaption>
+
+      </div>
+           <!--   SERVICES_i-->
+      <div class="service column col-lg-4 col-md-4 col-xs-12">
+           <div class="icon round">
+               <i class="fa fa-comment" aria-hidden="true"></i>
+            </div>
+            <hr />
+            
+            <figcaption class="opis text-center">
+            <h4>web design</h4>
+            <h5> Excepturi aperiam quos magni voluptatibus, saepe eius, velit ab beatae molestias tenetur.</h5>
+            
+            </figcaption>
+
+      </div>
+   </div>
    
+ </section> 
+ 
+<!--SECTION #2 PORTFOLIO-->
+       <section class="container portfolio">
+          <div class="row">
+             <figure id="no1" class="portfolio column col-lg-4 col-md-6 col-xs-12">
+             <figcaption class="portfolio">
+                <h3>Image no.1</h3>
+             </figcaption>
+             </figure>
+             <figure id="no2" class="portfolio column col-lg-4 col-md-6 col-xs-12">
+                <figcaption class="portfolio">
+                   <h3>Image no.2</h3>
+                </figcaption>
+             </figure>
+             <figure id="no3" class="portfolio column col-lg-4 col-md-6 col-xs-12">
+                <figcaption class="portfolio">
+                   <h3>Image no.3</h3>
+                </figcaption>
+             </figure>
+             <figure id="no4" class="portfolio column col-lg-4 col-md-6 col-xs-12">
+                <figcaption class="portfolio">
+                   <h3>Image no.4</h3>
+                </figcaption>
+             </figure>
+             <figure id="no5" class="portfolio column col-lg-4 col-md-6 col-xs-12">
+                <figcaption class="portfolio">
+                   <h3>Image no.5</h3>
+                </figcaption>
+             </figure>
+             <figure id="no6" class="portfolio column col-lg-4 col-md-6 col-xs-12">
+                <figcaption class="portfolio">
+                   <h3>Image no.6</h3>
+                </figcaption>
+             </figure>
+          </div>
+       </section>
    
     <nav><h4><a href="">services</a></h4></nav>
-<h5>Roboczo jest Roboto h5</h5>
+    <h5>Roboczo jest Roboto h5</h5>
    
-   <h3>Mosterat h3</h3>
-   <h4>Web Developement</h4>
-   <header>
-   <h3>Mosterat header h3</h3>
-   
-   <h2>Lorem ipsum dolor h2</h2>
-   </header> 
+    <h3>Mosterat h3</h3>
+    <h4>Web Developement</h4>
    
     <script src="js/jquery-3.1.1.js"></script>
 	<script src="js/bootstrap.min.js"></script>

@@ -1,7 +1,7 @@
+/*----------body and headers--------------*/
 body {
-   background-color: #f7f7f7;
+   background-color: #fff;
    font-size: 16px;
-   color: #333;
    box-sizing: border-box;
    margin: 0;
 }
@@ -11,10 +11,14 @@ a {
    text-decoration: none;
 }
 
+
 h3 {
    font-family: Montserrat;
    font-style: bold;
    text-transform: uppercase;
+   margin:50px auto;
+   margin-bottom: 20px;
+   
 }
 
 h4 {
@@ -27,3 +31,4 @@ h5 {
    font-style: italic;
    color: #777;
 }
+
