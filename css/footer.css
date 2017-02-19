@@ -16,6 +16,6 @@ footer>div>h6>ul>a{
 
 footer>div>h6>ul>a>li{
    display: inline-block;
-   color: red;
+   color: red;             /*MARKER*/
    margin: 12px 10px;
 }

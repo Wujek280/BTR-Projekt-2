@@ -7,9 +7,14 @@
    background-repeat: no-repeat;
    background-size: cover;
    width: 100vw;
-   height: 850px;
+   height: 700px;
    margin-top:100px;
+   padding-bottom: 50px;
 }
+
+@media (max-width: 1000px){
+   #contact { height: 950px }
+} /*bez tego, button :send message: wyswietla sie poza sekcją kontaktową*/
 
 #contact>div>h2 {margin: 20px auto; letter-spacing: 2px;   }
 #contact>div>h5 {margin: 20px auto;}
@@ -49,4 +54,15 @@ input[type=submit]
    padding: 5px 30px;
    height: 50px;
    margin-top: 50px;
+   margin-bottom: 50px;   
+   transition: 0.5s all;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover{
+   -webkit-box-shadow: 0px 0px 12px 3px rgba(168,198,255,0.57);
+   -moz-box-shadow: 0px 0px 12px 3px rgba(168,198,255,0.57);
+   box-shadow: 0px 0px 12px 3px rgba(168,198,255,0.57);
+   transition: 0.5s all;
+   
 }
