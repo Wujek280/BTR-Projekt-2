@@ -1,16 +1,16 @@
 #portfolio {
    background-color: #f7f7f7;
    width: 100%;
-   margin: 20px 0;
+   margin: 40px 0;
 }
 .column-portfolio {
-   margin: 5px;
    text-align: center;
 }
-
+#portfolio>div>h5 {
+   margin-bottom: 50px;	
+}
 .portfolio-mask>i{margin-top:65px; opacity: 1;}
 .portfolio>h2 {
-   font-family: Montserrat;
    font-size: 24px;
 }
 .portfolio>h3 {margin-top:10px;}

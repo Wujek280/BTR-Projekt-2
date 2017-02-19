@@ -1,7 +1,5 @@
 .round {border-radius: 50%;}
 
-hr {width: 75%;}
-
 .service {
   display: inline-block;
   position: relative;
@@ -35,5 +33,3 @@ figcaption.opis > h5 {
    font-style: normal;
 }
 
-figcaption.opis > h6 {
-}

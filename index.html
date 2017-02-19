@@ -8,11 +8,12 @@
 <!--    html css-->
 	<link rel="stylesheet" href="css/bootstrap.min.css">    
 	<link rel="stylesheet" href="css/header.css">    
-	<link rel="stylesheet" href="css/buttons.css">    
 	<link rel="stylesheet" href="css/headers-body.css"> 
 <!--	sections css   -->
 	<link rel="stylesheet" href="css/services.css">    
 	<link rel="stylesheet" href="css/portfolio.css">  
+	<link rel="stylesheet" href="css/our-team.css">  
+	<link rel="stylesheet" href="css/contact.css">    
 <!--	boostrap css  -->
 	<link rel="stylesheet" href="css/boostrap-overwrite.css">    
 <!--    Google Fonts-->
@@ -127,9 +128,17 @@
    
  </section> 
  
-<!--SECTION #2 PORTFOLIO-->
-      
+<!--SECTION #3 PORTFOLIO-->
+    
+
     <section class="container" id="portfolio">
+         
+    <div class="row" >
+      <h3>portfolio</h3>
+      <h5>Praesentium dupa dupa voluptatum delentini atque corrupti</h5>
+    </div>
+      
+      
        <div class="row">
           <div class="column-portfolio col-lg-4 col-md-6 col-xs-12">
              <figure id="no1" class="portfolio">
@@ -189,9 +198,108 @@
     </section>  
   
 <!--  OUR TEAM  -->
+ 
+ <section class="container" id="services">
   
+   <div class="row center">
+      <h3>meet our team</h3>
+      <h5>Praesentium voluptatum delentini atque corrupti</h5>
+   </div>
+   <div class="row">
+         
+               <!--   MATE 1  -->
+          
+      <div class="services column col-lg-4 col-md-4 col-xs-12">
+          <figure class="mate">
+            <div class="team-photo round" id="photo-1"></div>            
+            <hr />
+            
+            <figcaption class="opis">
+               <h4>web developer</h4>
+               <h5>Eric Clapton</h5>            
+            </figcaption>
+          </figure>
+      </div>
+                <!--   MATE 2  -->
 
+      <div class="services column col-lg-4 col-md-4 col-xs-12">
+          <figure class="mate">
+            <div class="team-photo round max " id="photo-2"></div>            
+            <hr />
+            
+            <figcaption class="opis">
+               <h4>CEO and Microelectronic Expert</h4>
+               <h5>Wojciech Gicala</h5>            
+            </figcaption>
+          </figure>
+      </div>
+                <!--   MATE 3  -->
+
+      <div class="services column col-lg-4 col-md-4 col-xs-12">
+          <figure class="mate">
+            <div class="team-photo round" id="photo-3"></div>            
+            <hr />
+            
+            <figcaption class="opis">
+               <h4>software into hardware specialist</h4>
+               <h5>Darianna</h5>            
+            </figcaption>
+          </figure>
+      </div>
+      
    
+ </section> 
+ 
+<!-- SECTION CONTACT-->
+ 
+ <section class="container" id="contact">   
+   
+       <div class="row header">
+         
+         <h2 class="header">contact us</h2>
+         <h5 class="header" >send nudes in attachment</h5>
+          
+       </div>
+       
+       <form action="https://formspree.io/wujek5151@gmail.com" id="myform" method="POST">
+       
+           <div class="row ">
+
+             <!-- LEFT -->
+             <div class="column fixed-height-for-contact col-lg-6 col-md-6 col-sm-12">
+                  <input id="imie" type="text" placeholder="   John" />
+                  <input id="email" type="email" placeholder="   type@yourmail.com" />
+                  <input id="phone" type="phone" placeholder="   +44 960 2255 108" />
+
+             </div>
+
+             <!-- RIGHT -->
+             <div class="column fixed-height-for-contact col-lg-6 col-md-6 col-sm-12">
+                  <textarea id="msg" name="message" form="myform" placeholder=" We're delighted to recieve message from you..." ></textarea>
+             </div>
+
+          </div>
+
+             <!-- BOTTOM SEND BUTTON -->
+          <div class="row">
+                <input id="send" type="submit" value="send message">
+          </div>
+       
+      </form>
+       
+ </section>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
     <nav><h4><a href="">services</a></h4></nav>
     <h5>Roboczo jest Roboto h5</h5>
    
@@ -201,10 +309,12 @@
     <script src="js/jquery-3.1.1.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/"></script>
+	
+	
 
 	
 </body>
 </html>
 
 
-<!-- section.container#portfolio>div.row>(div.column-portfolio.col-lg-4.col-md-6.col-xs-12>(figure#no$.portfolio>div.portfolio-mask>i.fa.fa-plus.fa-4x)+(figcaption.portfolio>(h3{Earum Rerum Hic})+(h4{Temporibus Autem Quibusdam}+h6{No.$})))*6 -->
+<!--   section.container#portfolio>div.row>(div.column-portfolio.col-lg-4.col-md-6.col-xs-12>(figure#no$.portfolio>div.portfolio-mask>i.fa.fa-plus.fa-4x.fa-inverse)+(figcaption.portfolio>(h2{Earum Rerum Hic})+(h5{Temporibus Autem Quibusdam})))*6 -->
