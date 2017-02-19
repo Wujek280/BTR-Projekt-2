@@ -1,0 +1,29 @@
+body {
+   background-color: #f7f7f7;
+   font-size: 16px;
+   color: #333;
+   box-sizing: border-box;
+   margin: 0;
+}
+
+a {
+   color: yellow;
+   text-decoration: none;
+}
+
+h3 {
+   font-family: Montserrat;
+   font-style: bold;
+   text-transform: uppercase;
+}
+
+h4 {
+   font-family: Montserrat;
+   font-style: bold;
+}
+
+h5 {
+   font-family: Roboto Slab;
+   font-style: italic;
+   color: #777;
+}
