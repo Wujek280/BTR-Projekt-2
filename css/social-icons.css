@@ -1,8 +1,8 @@
 /*------icons-------*/
 
 figcaption.opis>a>i,
-footer>div>h6>a>i
-{
+footer>div>h6>a>i {
+
    display: inline-block;
    font-size: 36px;
    margin: 0 2px;
@@ -18,8 +18,8 @@ footer>div>h6>a>i
 }
 
 figcaption.opis>a>i:hover,
-footer>div>h6>a>i:hover
-{
+footer>div>h6>a>i:hover {
+	
    color: deepskyblue;
    background-color: #fff;
    border: 1px solid deepskyblue;
@@ -33,6 +33,3 @@ footer>div>h6>a>i:hover
    
    
 }
-
-
-/*-------*/
